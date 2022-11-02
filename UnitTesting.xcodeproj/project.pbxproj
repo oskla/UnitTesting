@@ -14,6 +14,9 @@
 		38F29EA129125E9400D54DEE /* UnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F29EA029125E9400D54DEE /* UnitTestingTests.swift */; };
 		38F29EAB29125E9400D54DEE /* UnitTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F29EAA29125E9400D54DEE /* UnitTestingUITests.swift */; };
 		38F29EAD29125E9400D54DEE /* UnitTestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F29EAC29125E9400D54DEE /* UnitTestingUITestsLaunchTests.swift */; };
+		38F29EBA2912624E00D54DEE /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F29EB92912624E00D54DEE /* Converter.swift */; };
+		38F29EBC2912637B00D54DEE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F29EBB2912637B00D54DEE /* ViewModel.swift */; };
+		38F29EBD29126AD600D54DEE /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F29EB92912624E00D54DEE /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 		38F29EA629125E9400D54DEE /* UnitTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F29EAA29125E9400D54DEE /* UnitTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingUITests.swift; sourceTree = "<group>"; };
 		38F29EAC29125E9400D54DEE /* UnitTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38F29EB92912624E00D54DEE /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		38F29EBB2912637B00D54DEE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +103,8 @@
 				38F29E9129125E9100D54DEE /* ContentView.swift */,
 				38F29E9329125E9400D54DEE /* Assets.xcassets */,
 				38F29E9529125E9400D54DEE /* Preview Content */,
+				38F29EB92912624E00D54DEE /* Converter.swift */,
+				38F29EBB2912637B00D54DEE /* ViewModel.swift */,
 			);
 			path = UnitTesting;
 			sourceTree = "<group>";
@@ -258,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F29E9229125E9100D54DEE /* ContentView.swift in Sources */,
+				38F29EBA2912624E00D54DEE /* Converter.swift in Sources */,
+				38F29EBC2912637B00D54DEE /* ViewModel.swift in Sources */,
 				38F29E9029125E9100D54DEE /* UnitTestingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F29EBD29126AD600D54DEE /* Converter.swift in Sources */,
 				38F29EA129125E9400D54DEE /* UnitTestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
